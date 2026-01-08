@@ -19,18 +19,23 @@ export default defineConfig({
 				baseUrl: 'https://github.com/kingdomblocks/wiki/edit/main/',
 			},
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
+                {
+                    label: 'Startseite',
+                    link: '/',
+                },
+                {
+                    label: 'Regeln',
+                    autogenerate: { directory: 'rules' },
+                },
+                {
+                    label: 'Anleitungen',
+                    autogenerate: { directory: 'guides' },
+                },
+                {
+                    label: 'Systeme',
+                    autogenerate: { directory: 'systems' },
+                },
+            ],
 		}),
 	],
 });
