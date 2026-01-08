@@ -6,8 +6,18 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'KingdomBlocks Wiki',
+			defaultLocale: 'de', 
+			locales: {
+				de: { label: 'Deutsch', lang: 'de' },
+			},
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/kingdomblocks/wiki' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/WZ369BJ7fR' },
+			],
+			editLink: {
+				baseUrl: 'https://github.com/kingdomblocks/wiki/edit/main/',
+			},
 			sidebar: [
 				{
 					label: 'Guides',
