@@ -1,0 +1,92 @@
+:root {
+  --kb-bg-primary: #0a0a0a;
+  --kb-bg-secondary: #111111;
+  --kb-bg-card: #161616;
+
+  --kb-text-primary: #f5f5f5;
+  --kb-text-secondary: #a3a3a3;
+  --kb-text-muted: #737373;
+
+  --kb-accent-red: #dc2626;
+  --kb-accent-gold: #f59e0b;
+  --kb-accent-glow: rgba(220, 38, 38, 0.4);
+
+  --kb-border-color: #262626;
+  --kb-border-glow: #dc262640;
+}
+
+:root[data-theme='light'],
+:root[data-theme='dark'] {
+  --sl-color-white: var(--kb-text-primary);
+  --sl-color-gray-1: #e5e5e5;
+  --sl-color-gray-2: var(--kb-text-secondary);
+  --sl-color-gray-3: var(--kb-text-muted);
+  --sl-color-gray-4: #404040;
+  --sl-color-gray-5: var(--kb-border-color);
+  --sl-color-gray-6: var(--kb-bg-card);
+  --sl-color-black: var(--kb-bg-primary);
+
+  --sl-color-bg: var(--kb-bg-primary);
+  --sl-color-bg-nav: var(--kb-bg-secondary);
+  --sl-color-bg-sidebar: var(--kb-bg-secondary);
+
+  --sl-color-accent-low: rgba(220, 38, 38, 0.2);
+  --sl-color-accent: var(--kb-accent-red);
+  --sl-color-accent-high: #ef4444;
+
+  --sl-color-text-accent: var(--kb-accent-red);
+  --sl-color-text-invert: #ffffff;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(220, 38, 38, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(245, 158, 11, 0.1) 0%, transparent 40%),
+    radial-gradient(ellipse at 20% 80%, rgba(220, 38, 38, 0.08) 0%, transparent 40%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.sl-markdown-content .card {
+  background: var(--kb-bg-card);
+  border: 1px solid var(--kb-border-color);
+  border-radius: 0.75rem;
+  transition: all 250ms ease;
+  box-shadow: none;
+}
+
+.sl-markdown-content .card:hover {
+  border-color: var(--kb-border-glow);
+  box-shadow: 0 0 15px rgba(220, 38, 38, 0.3);
+}
+
+.sl-markdown-content a:not(.card) {
+  position: relative;
+  color: var(--kb-accent-gold);
+  text-decoration: none;
+  transition: all 250ms ease;
+}
+
+.sl-markdown-content a:not(.card):hover {
+  color: var(--kb-accent-red);
+  text-shadow: 0 0 10px rgba(220, 38, 38, 0.5);
+}
+
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3 {
+  color: var(--kb-text-primary);
+}
+
+.sl-markdown-content img.emoji {
+  display: inline-block;
+  margin: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+}

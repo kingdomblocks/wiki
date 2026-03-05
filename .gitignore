@@ -140,3 +140,4 @@ vite.config.ts.timestamp-*
 
 # Annoying macOS stuff
 .DS_Store
+/.astro

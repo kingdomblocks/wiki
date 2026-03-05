@@ -1,0 +1,50 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Head.astro';
+---
+
+<Default {...Astro.props} />
+
+<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  window.addEventListener('load', function() {
+    // @ts-ignore
+    if (window.twemoji) {
+      window.twemoji.parse(document.body, {
+        ext: '.svg',
+        folder: 'svg'
+      });
+      
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.addedNodes.length) {
+            window.twemoji.parse(document.body, {
+              ext: '.svg',
+              folder: 'svg'
+            });
+          }
+        });
+      });
+      
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
+  });
+</script>
+
+<style is:global>
+  img.emoji {
+    height: 1.25em;
+    width: 1.25em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.2em;
+    display: inline-block;
+  }
+  
+  .large img.emoji,
+  h2 img.emoji,
+  a[aria-current="page"] img.emoji {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: -0.25em;
+  }
+</style>
