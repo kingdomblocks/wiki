@@ -12,7 +12,7 @@ Erstelle eigene Shops direkt in Kombination mit Truhen. So kannst du Items an- u
 Passive Spawner generieren automatisch Items und XP, ohne dass Mobs spawnen und von dir getötet werden müssen. Das ist nicht nur effizienter, sondern schont auch die Serverperformance!
 * **Bonus:** Du kannst mehrere passive Spawner **stacken** (übereinander stapeln), um die Produktionsmenge noch weiter zu erhöhen.
 
-##  funnel Spezialtrichter
+## ⚙️ Spezialtrichter
 Kaufe dir für $1.000 einen Spezialtrichter. Diese verbesserten Trichter bieten mächtige Funktionen:
 * Integrierte Item-Filter
 * Einfaches Verknüpfen von Trichtern über größere Distanzen

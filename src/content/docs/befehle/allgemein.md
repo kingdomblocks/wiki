@@ -15,7 +15,7 @@ Diese Befehle können überall auf dem Netzwerk (sofern nicht anders angegeben) 
 * `/tpahere <spieler>` - Sende einem Spieler eine Teleportationsanfrage (er teleportiert sich zu dir)
 * `/tpaccept` oder `/tpyes` - Akzeptiere eine erhaltene Teleportationsanfrage
 * `/tpdecline`, `/tpdeny` oder `/tpno` - Lehne eine Teleportationsanfrage ab
-* `/randomteleport` - (Nur in Farmwelten) Teleportiert dich an einen zufälligen Ort
+(In Farmwelten wirst du beim Betreten automatisch an einen zufälligen Ort teleportiert.)
 
 ## 💬 Kommunikation
 * `/msg <spieler> <nachricht>` - Schreibe einem Spieler eine Privatnachricht
@@ -32,7 +32,7 @@ Diese Befehle können überall auf dem Netzwerk (sofern nicht anders angegeben) 
 
 ## 🎁 Belohnungen & Boosts
 * `/vote` - Zeigt die Votelinks und deine Statistiken
-* `/rewards` - Öffnet das GUI zum Abholen deiner täglichen/wöchentlichen Belohnungen (nur am Spawn)
+* `/rewards` - Öffnet das GUI zum Abholen der Spielzeitbelohnung (nur am Spawn)
 * `/schatzkiste` - Hole deine Schatzkisten ab (falls im Rang enthalten | nur am Spawn verfügbar)
 * `/booster` - Öffnet das GUI zum Zünden von Boostern (nicht am Spawn)
 * `/freebooster` - Hole deine Freebooster ab (falls im Rang enthalten)
@@ -42,8 +42,8 @@ Diese Befehle können überall auf dem Netzwerk (sofern nicht anders angegeben) 
 * `/prefix` - Öffnet das Prefix-GUI, um aus deinen freigeschalteten Prefixen zu wählen
 * `/umbenennen` oder `/sign <text>` - Signiere das Item in deiner Hand
 * `/hat` - Setze das Item in deiner Hand auf deinen Kopf
-* `/kopf <name>` - Gebe dir einen Spielerkopf aus der Head-Database (falls im Rang enthalten)
-* `/squire <spieler>` - Vergebe den Squire-Rang an einen anderen Spieler (falls in deinem Rang enthalten)
+* `/kopf <name>` - Gibt dir den Kopf des entsprechenden Spielers (falls in deinem Rang enthalten)
+* `/squire <spieler>` - Vergibt den Rang für 7 Tage (falls in deinem Rang enthalten)
 * `/cooldowns` - Zeigt die Cooldowns für bestimmte Commands an (für Ränge mit Cooldown-Commands)
 * `/tutorial` - Starte das Start-Tutorial erneut (nur am Spawn)
 * `/verify` - Verifiziere deinen Minecraft-Account mit Discord, z.B. für Rangübertragungen (nur am Spawn)

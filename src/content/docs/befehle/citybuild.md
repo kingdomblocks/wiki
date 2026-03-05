@@ -21,7 +21,7 @@ Diese Befehle sind exklusiv für den CityBuild-Server **Elysia** verfügbar und 
 * `/rand` - Öffnet ein GUI zum Ändern deines Grundstückrandes.
 * `/wand` - Öffnet ein GUI zum Ändern deiner Grundstückwand.
 * `/flags` - Öffnet ein GUI zum Anpassen detaillierter Grundstücks-Einstellungen (Flags).
-* `/cbspawn settings` - Lege deinen eigenen, bevorzugten Spawnpunkt auf dem Grundstück fest.
+* `/cbspawn settings` - Legt den Spawnpunkt fest, ob man beim CityBuild Spawn joinen möchte oder an der Position wo man sich ausgeloggt hat.
 
 ## 🛒 Wirtschaft & Shops
 * `/chestshop create <name>` - Erstelle einen Kistenshop (Achte auf die Beschilderung der Kiste!).

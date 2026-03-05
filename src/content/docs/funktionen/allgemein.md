@@ -19,7 +19,7 @@ Mit Boostern kannst du das Spielerlebnis für dich und andere verbessern. Booste
 * **Extremebooster:** Zündet alle Booster auf Stufe 3 und gewährt zusätzlich 30 Minuten Fly.
 
 ## ⭐ Perks
-Im Perkshop am Spawn kannst du dir verschiedene dauerhafte Vorteile (Perks) kaufen und diese über `/perks` verwalten:
+Im Perkshop am Spawn kannst du dir verschiedene dauerhafte Vorteile (Perks) kaufen. Temporäre Perks kannst du auch aus Kisten ziehen. Diese kannst du über `/perks` verwalten:
 * Kein Fallschaden
 * Kein Hunger
 * Schnelligkeit
@@ -28,7 +28,7 @@ Im Perkshop am Spawn kannst du dir verschiedene dauerhafte Vorteile (Perks) kauf
 * Nachtsicht
 * Inventar behalten (Keep Inventory)
 * XP behalten (Keep XP)
-* **Mobile Werkbank:** Erreichbar über `/workench` oder `/craft`
+* **Mobile Werkbank:** Erreichbar über `/workbench` oder `/craft`
 * **Mobiler Amboss:** Erreichbar über `/anvil` oder `/amboss`
 
 ## 🪣 Magische Eimer
@@ -36,7 +36,7 @@ Im Perkshop am Spawn kannst du dir verschiedene dauerhafte Vorteile (Perks) kauf
 * **Magischer Lavaeimer:** Ein Lava-Eimer mit einer deutlich erhöhten Anzahl von Nutzungen.
 
 ## 👤 Köpfeauswahl
-Suche dir aus der Minecraft Head Database dekorative Spielerköpfe aus. (Verfügbar über den Befehl `/kopf <name>`, falls in deinem Rang enthalten).
+Die Köpfeauswahl ist ein Item (ein Piglin-Kopf). Wenn man diesen rechtsklickt, öffnet sich ein Menü, wo man sich einen Kopf aus der Head Database aussuchen kann. Der Befehl `/kopf <name>` ist dafür da, dass man sich den Kopf eines bestimmten Spielers gibt.
 
 ## ⚔️ Der Schlächter
 Ein magisches Schwert! Wenn du mit dem Schlächter ein Mob besiegst, besteht eine Chance, dass das entsprechende **Spawnei** gedroppt wird.
